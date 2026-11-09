@@ -6,6 +6,7 @@ on:
       - master
     paths:
       - "sherlock_project/resources/data.json"
+    workflow_dispatch:
 
 jobs:
   validate-modified-targets:
